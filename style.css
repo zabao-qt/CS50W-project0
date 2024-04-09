@@ -56,6 +56,9 @@
 #logo_section {
   text-align: center;
   margin-top: 150px;
+  a {
+    text-decoration: none;
+  }
 }
 
 #logo {
@@ -274,4 +277,34 @@ label {
   padding: 8px;
   vertical-align: middle;
   /* outline: auto; */
+}
+
+/*!============================== IMAGE SEARCH ==========================!*/
+#img_tool_bar {
+  display: flex;
+  margin-top: 15px;
+  width: 324px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+#google {
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: small;
+  }
+  margin-left: 15px;
+  margin-top: 5px;
+}
+#google:hover {
+  text-decoration: underline;
+}
+.image-text {
+  font-family: arial;
+  margin-top: -20px;
+  padding-left: 210px;
+  font-size: 16px;
+  color: rgb(50, 98, 255);
 }

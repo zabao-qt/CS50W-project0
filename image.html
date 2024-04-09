@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Images</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="tool_bar"> 
+        <div id="img_tool_bar"> 
+            <div id="google"><a href="index.html">Google Search</a></div>
             <div id="advanced"><a href="advanced.html">Advanced search</a></div>
-            <div id="image"><a href="image.html">Images</a></div>
             <img src="PNGs/DOTS_9.png" alt="Google apps" id="dots">
             <img src="PNGs/PROFILE_PIC.jpg" alt="Google Account" id="profile">
         </div>
@@ -15,23 +15,18 @@
             <a href="https://www.google.com/">
                 <img src="PNGs/GOOGLE_LOGO.png" alt="Google Logo" id="logo">
             </a>
+            <div class="image-text">images</div>
         </div>
         <div id="search_section">
             <form action="https://www.google.com/search">
                 <div>
                     <input type="text" name="q" id="search_box">
+                    <input type="hidden" name="tbm" value="isch">
                 </div>
                 <div id = "search_button">
-                    <input type="submit" value="Google Search" class="index_button">
-                    <input type="submit" value="I'm Feeling Lucky" name="btnI" class="index_button">
+                    <input type="submit" value="Image Search" class="index_button">
                 </div>
             </form>
-        </div>
-        <div id="languages_section">
-            <p>Google offered in:</p>
-            <p class="lang"><a href="#">English</a></p>
-            <p class="lang"><a href="#">Español</a></p>
-            <p class="lang"><a href="#">Français</a></p>
         </div>
     </body>
 </html>
