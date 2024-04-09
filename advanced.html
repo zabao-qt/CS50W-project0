@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div id="container">
+            <div id="adv_logo_section">
+                <a href="index.html">
+                    <img src="PNGs/GOOGLE_LOGO.png" alt="Google Logo" id="adv_logo" style="width: 100px;">
+                </a>
+            </div>
+            <div id="tool_section">
+                <img src="PNGs/DOTS_9.png" alt="Google apps" id="adv_dots">
+                <img src="PNGs/PROFILE_PIC.jpg" alt="Google Account" id="adv_profile">
+            </div>
+        </div>
+        <h3>Advanced Search</h3>
+        <div>
+            <div>
+                <span>Find pages with...</span>
+                <span>To do this in the search box.</span>
+            </div>
+            <form action="https://google.com/search" name="f">
+                <div class="field">
+                    <label for="field1">all these words:</label>
+                    <input type="text" class="textinput" id="field1" value=""  name="as_q">
+                </div>
+                <br>
+                <div class="field">
+                    <label for="field2">this exact word or phrase: </label>
+                    <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+                </div>
+                <br>
+                <div class="field">
+                    <label for="field3">any of this words: </label>
+                    <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+                </div>
+                <br>
+                <div class="field">
+                    <label for="field4">none of these words: </label>
+                    <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+                </div>
+                <br>
+                <input type="submit" value="advanced search">
+            </form>
+        </div>
+    </body>
+</html>
